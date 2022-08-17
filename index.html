@@ -1,43 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <title>Document</title>
 </head>
-
 <body>
+    <h1>Desafio 9 Coderhouse</h1>
+    <h2>Interactuar con el DOM mediante eventos</h2>
+    <h3>Ingrese los datos del alumno para agregar:</h3>
+    <div id="containerPrincipal">
+        <div>
+            <form id="formulario">
+                <label> Nombre:</label>
+                <input class="iText" type="text" name="nombre" id="iNombre">
 
-    <h1>Desafio EVENTOS</h1>
+                <label>Email:</label>
+                <input class="iText" type="email" name="email" id="iEmail">
 
-    <div>
-        <h2>Profesores</h2>
-        <form id="formP">
-            <label>Nombre de profesor</label>
-            <label>Apellido de profesor</label>
-            <label>Número de comisión</label>
-        </form>
+                <label>Password:</label>
+                <input class="iText" type="password" name="password" id="iPassword">
+                <div id="botones">
+                    <input type="submit" id="btnSubmit" id="" value="Confirmar">
+                    <input type="button" id="btnMostrar" id="" value="Mostrar Todos">
+                </div>
+            </form>
+        
+        <div id="alumnoIngresado">
+        </div>
+ 
+        </div>
+
+        <div id="displayTodos">
+            
+        </div>
+
     </div>
-    <div>
-        <h2>Alumnos</h2>
-        <form id="formA">
-            <label>Nombre de alumno</label>
-            <label>Apellido de profesor</label>
-            <label>Número de comisión</label>
-        </form>
-    </div>
-
-    <div>
-        <h2>Comision</h2>
-
-    </div>
-
-
-    <script src="./java.js">
-
-    </script>
+    <script src="./script.js"></script>
 </body>
-
 </html>
